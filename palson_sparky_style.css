@@ -45,15 +45,15 @@ nav {
     background-color: #ffc627;
 }
 
-nav > ul {
+nav ul {
     padding-left: 0px;
 }
 
-nav > li {
+nav li {
     list-style-type: none;
 }
 
-nav > li {
+nav a {
     display: block;
     background-color: #8c1d40;
     color: #fff;
@@ -65,7 +65,7 @@ nav > li {
     font-size: 20px;
 }
 
-nav > li:hover {
+nav a:hover {
     background-color: #fff ;
     color: #8c1d40;
 }
@@ -75,12 +75,12 @@ main {
     padding: 24px;
 }
 
-main > li {
+main a {
     color: #8c1d40;
     font-weight: bold;
 }
 
-main > li:hover {
+main a:hover {
     background-color: #8c1d40;
     color: #fff;
     padding: 4px;
@@ -112,7 +112,7 @@ address {
     font-weight: bold;
     font-size: 16px;
 }
-footer > li {
+footer a {
     color: #fff;
     display: inline-block;
     padding-top: 8px;
@@ -122,6 +122,6 @@ footer > li {
     font-weight: normal;
 }
 
-footer > li:hover {
+footer a:hover {
     color: #ffc627;
 }
